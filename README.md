@@ -4,7 +4,7 @@ Ce projet explore la génération automatique de résumés via deux approches : 
 
 Ce projet propose une exploration approfondie de la génération automatique de résumés de textes en utilisant deux approches : 
 
-1. *Résumé extractif* : sélection des phrases clés directement issues du texte source.  
+1. *Résumé extractif* : sélection des phrases clés directement issues du texte source à l'aide de BERT.  
 2. *Résumé abstrait* : reformulation et génération de nouveaux résumés à l’aide du modèle T5.
 
 #### Objectifs :  
@@ -25,4 +25,4 @@ Ce projet propose une exploration approfondie de la génération automatique de 
 - Améliorations via segmentation des textes, fine-tuning sur des données spécifiques ou utilisation de modèles spécialisés comme Longformer.  
 
 ### Remarque importante :
-Le dataset complet (fichiers train, test et validation) n'est pas inclus car leur taille volumineuse rend leur chargement impossible dans ce dépôt. Cependant, le code Jupyter contient la partie dédiée à la sauvegarde des fichiers prétraités. Cela facilite la compilation et permet une exécution rapide en cas d'accès aux données.
+Le dataset complet (fichiers train, test et validation) n'est pas inclus car leur taille volumineuse rend leur chargement impossible dans ce dépôt.
